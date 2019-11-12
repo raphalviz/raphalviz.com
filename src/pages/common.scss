@@ -1,0 +1,32 @@
+.content {
+  padding: 0 110px;
+
+  .content__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 7px;
+  }
+
+  .content__projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1181px) {
+  .project:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .project:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    margin-right: 0 !important;
+  }
+}

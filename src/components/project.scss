@@ -1,0 +1,17 @@
+.project {
+    height: 13vw;
+    width: calc((100vw - 220px) / 3.1);
+    background-color: #c4c4c4;
+    margin-right: 7px;
+    margin-bottom: 7px;
+
+    @media screen and (max-width: 1180px) {
+        height: 19vw;
+        width: calc((100vw - 220px) / 2.1);
+    }
+
+    @media screen and (max-width: 768px) {
+        height: 35vw;
+        width: calc(100vw - 220px);
+    }
+}

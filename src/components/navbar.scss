@@ -1,0 +1,94 @@
+$black: #000000;
+$grey-1: #c4c4c4;
+$grey-2: #dadada;
+
+$font-stack: "Raleway", Arial, Helvetica, sans-serif;
+
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 110px;
+  margin-top: 90px;
+  margin-bottom: 70px;
+
+  .nav__brand {
+    display: flex;
+    align-items: center;
+
+    .nav__divider {
+      border-left: 2px solid $grey-2;
+      height: 48px;
+      margin: 0 25px;
+    }
+
+    .nav__header-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .nav__title {
+        font-family: $font-stack;
+        text-transform: uppercase;
+        letter-spacing: 4pt;
+        font-weight: 700;
+        font-size: 22pt;
+        white-space: nowrap;
+        margin: 0;
+      }
+
+      .nav__subtitle {
+        font-family: $font-stack;
+        white-space: nowrap;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 14pt;
+        letter-spacing: 2.5pt;
+        margin: 0;
+      }
+    }
+
+    .nav__links {
+      ul {
+        margin: 0 !important;
+      }
+    }
+  }
+}
+
+.nav__brand-link {
+    color: inherit;
+    text-decoration: none;
+    font-family: inherit;
+    background-color: inherit !important;
+}
+
+.nav__logo {
+  max-width: 90px;
+}
+
+.nav__links--centered {
+  display: flex;
+  align-items: center;
+}
+
+.nav__link--active {
+  border-bottom: 2px solid #bfbfbf;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1180px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+
+    .nav__brand {
+      justify-content: center;
+      margin-bottom: 40px;
+
+      .nav__divider {
+          height: 47px;
+      }
+    }
+  }
+}
