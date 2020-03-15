@@ -1,12 +1,35 @@
 import React from "react"
+import styled from "styled-components"
 
-import "./project.scss"
+const Square = styled.div`
+  padding-bottom: 100%;
+  width: 100%;
+  position: relative;
+  background: lightgray;
+`
 
-const Project = () => {
+const SquareContent = styled.div`
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+`
+
+const Thumbnail = styled.img`
+  width
+`
+
+const Project = props => {
   return (
-    <div className="project">
-      <div className="project__thumbnail"></div>
-    </div>
+    <Square>
+      <SquareContent>
+        {props.children}
+        {<img src={props.thumb} />}
+      </SquareContent>
+    </Square>
   )
 }
 

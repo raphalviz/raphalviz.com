@@ -1,5 +1,6 @@
 .content {
   padding: 0 110px;
+  margin-bottom: 50px;
 
   .content__title {
     text-transform: uppercase;
@@ -28,5 +29,15 @@
 @media screen and (max-width: 768px) {
   .project {
     margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    padding: 0 50px;
+  }
+
+  .project {
+    width: 100% !important;
   }
 }
