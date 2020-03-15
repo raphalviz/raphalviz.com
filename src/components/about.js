@@ -5,6 +5,7 @@ import Divider from "./divider"
 
 const Paragraph = styled.p`
   margin-bottom: 0;
+  font-size: 0.9rem;
 
   @media screen and (max-width: 840px) {
     padding: 0 40px;

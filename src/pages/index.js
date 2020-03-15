@@ -3,9 +3,10 @@ import React from "react"
 import SEO from "../components/seo"
 import Projects from "../components/projects"
 import "./index.scss"
-import logo from "../images/ra_logo.svg"
 import styled from "styled-components"
 import About from "../components/about"
+import Brand from "../components/brand"
+import Experience from "../components/experience"
 
 const Container = styled.div`
   width: 100%;
@@ -15,6 +16,7 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   margin-top: 50px;
+  margin-bottom: 50px;
 `
 
 const Section = styled.div`
@@ -26,20 +28,15 @@ const IndexPage = () => {
     <div>
       <SEO title="Home" />
       <Container>
-        <div className="head__container">
-          <div className="logo__container">
-            <img src={logo} alt="Raphael Alviz Logo" />
-          </div>
-          <div className="name__container">
-            <h2>Raphael Alviz</h2>
-            <h3>Full Stack Developer</h3>
-          </div>
-        </div>
+        <Brand />
         <Section>
           <About />
         </Section>
         <Section>
           <Projects />
+        </Section>
+        <Section>
+          <Experience />
         </Section>
       </Container>
     </div>

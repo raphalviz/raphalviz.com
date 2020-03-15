@@ -19,7 +19,7 @@ const SquareContent = styled.div`
 `
 
 const Thumbnail = styled.img`
-  width
+  width: unset;
 `
 
 const Project = props => {
@@ -27,7 +27,7 @@ const Project = props => {
     <Square>
       <SquareContent>
         {props.children}
-        {<img src={props.thumb} />}
+        {<Thumbnail src={props.thumb} alt={props.altText} />}
       </SquareContent>
     </Square>
   )

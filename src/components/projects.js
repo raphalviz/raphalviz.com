@@ -48,17 +48,18 @@ const Projects = () => {
   }
 
   let ProjectGrid = []
-  projectArray.forEach(row => {
+  projectArray.forEach((row, j) => {
     ProjectGrid.push(
-      <Row>
+      <Row key={j}>
         {row.map((project, i) => {
           return (
             <Column key={i}>
-              <Link to={project.node.slug}>
+              <Link to={`/${project.node.slug}`}>
                 <Project
                   thumb={
                     project.node.featureImageSharp.childImageSharp.fluid.src
                   }
+                  altText={project.node.slug}
                 ></Project>
               </Link>
             </Column>
@@ -70,8 +71,9 @@ const Projects = () => {
 
   return (
     <div>
-      <Title>Projects</Title>
+      <Title>Portfolio</Title>
       <Divider />
+      {ProjectGrid}
       {ProjectGrid}
     </div>
   )
