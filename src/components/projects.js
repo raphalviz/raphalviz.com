@@ -49,6 +49,7 @@ const Projects = () => {
 
   let ProjectGrid = []
   projectArray.forEach((row, j) => {
+    row.reverse();
     ProjectGrid.push(
       <Row key={j}>
         {row.map((project, i) => {
@@ -73,7 +74,7 @@ const Projects = () => {
     <div>
       <Title>Portfolio</Title>
       <Divider />
-      {ProjectGrid}
+      {ProjectGrid.reverse()}
     </div>
   )
 }

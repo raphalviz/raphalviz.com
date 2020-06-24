@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Raphael Alviz | Full Stack Developer`,
@@ -40,8 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-source-ghost`,
       options: {
-        apiUrl: `https://cms.raphalviz.com`,
-        contentApiKey: `f0f4453a0214ae3344479e660a`,
+        apiUrl: `${process.env.CONTENT_URL}`,
+        contentApiKey: `${process.env.API_KEY}`,
       },
     },
     {
