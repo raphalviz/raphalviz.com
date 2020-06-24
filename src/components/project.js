@@ -19,7 +19,7 @@ const SquareContent = styled.div`
 `
 
 const Thumbnail = styled.img`
-  width: unset;
+  width: 100%;
 `
 
 const Project = props => {

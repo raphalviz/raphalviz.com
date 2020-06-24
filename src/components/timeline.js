@@ -52,19 +52,44 @@ const Timeline = () => {
   return (
     <Container>
       <TimeContent>
+        <JobTitle>Software Developer</JobTitle>
+        <JobCompany>Visual Defence Inc.</JobCompany>
+        <h6>April 2020 - Present</h6>
+        <ul>
+          <Bullet>
+            Implemented both back-end and front-end features on a LAMP stack web
+            application built on an MVC framework and improved the codebase by
+            introducing object oriented design patterns
+          </Bullet>
+          <Bullet>
+            Improved on the security of the site by using security auditing
+            tools, patching vulnerabilities, and following best practices within
+            the application codebase and Linux server
+          </Bullet>
+          <Bullet>
+            Communicated the status of work, potential issues and provided
+            accurate estimations of time to completion
+          </Bullet>
+        </ul>
+      </TimeContent>
+      <TimeContent>
         <JobTitle>Marketing & Systems Administrator</JobTitle>
         <JobCompany>University of Toronto Scarborough</JobCompany>
         <h6>August 2018 - December 2019</h6>
         <ul>
           <Bullet>
-            Developed, designed and implemented user-focused marketing
-            promotional materials, including social media, print and
-            e-newsletters
-          </Bullet>
-          <Bullet>
             Provided support of a complex information system (Orbis) including
             end user support, troubleshooting issues, and improving the
             day-to-day functioning and user experience
+          </Bullet>
+          <Bullet>
+            Supervised casual staff within the marketing team to ensure timely
+            and accurate completion of projects
+          </Bullet>
+          <Bullet>
+            Developed, designed and implemented user-focused marketing
+            promotional materials, including social media, print and
+            e-newsletters
           </Bullet>
           <Bullet>
             Worked with content management systems to maintain and develop
@@ -75,7 +100,7 @@ const Timeline = () => {
       </TimeContent>
       <TimeContent>
         <JobTitle>Lead Developer</JobTitle>
-        <JobCompany>Ark75 Creatiive</JobCompany>
+        <JobCompany>Ark75 Creative</JobCompany>
         <h6>May 2018 - Present</h6>
         <ul>
           <Bullet>
@@ -95,7 +120,7 @@ const Timeline = () => {
       <TimeContent>
         <JobTitle>Web Development Assistant</JobTitle>
         <JobCompany>University of Toronto Scarborough</JobCompany>
-        <h6>May 2018 - Present</h6>
+        <h6>May 2017 - May 2018</h6>
         <ul>
           <Bullet>
             Designed and built websites for clients with WordPress

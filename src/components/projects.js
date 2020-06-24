@@ -74,7 +74,6 @@ const Projects = () => {
       <Title>Portfolio</Title>
       <Divider />
       {ProjectGrid}
-      {ProjectGrid}
     </div>
   )
 }

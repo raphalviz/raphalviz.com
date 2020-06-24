@@ -4,6 +4,7 @@ import styled from "styled-components"
 import Brand from "../components/brand"
 import Title from "../components/title"
 import Divider from "../components/divider"
+import SEO from "../components/seo"
 
 const Container = styled.div`
   width: 100%;
@@ -29,6 +30,7 @@ const ProjectPost = ({ data }) => {
 
   return (
     <Container>
+      <SEO title={post.title} />
       <StyledLink to="/" color="black">
         <Brand />
       </StyledLink>

@@ -18,13 +18,18 @@ const About = () => {
       <Title>About</Title>
       <Divider />
       <Paragraph>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Hi, I'm Raphael, a full stack developer with an interest in UX &amp; UI design. I graduated from the University of
+        Toronto with a degree in Computer Science and have experience designing
+        and developing web applications with different technology stacks such as
+        MEAN and LAMP stack.
+        <br />
+        <br />I enjoy learning and experimenting with new technologies and
+        continuously find ways to improve my work. Whether it's a back-end
+        framework that allows me to easily create a REST API, or a development
+        practice such as CI/CD to reliably and
+        quickly release new code. Combined with my interest in UX &amp; UI, I am
+        dedicated to delivering secure, robust applications with an appealing,
+        user-friendly experience.
       </Paragraph>
     </div>
   )
