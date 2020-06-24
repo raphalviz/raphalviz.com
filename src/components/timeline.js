@@ -123,16 +123,17 @@ const Timeline = () => {
         <h6>May 2017 - May 2018</h6>
         <ul>
           <Bullet>
-            Designed and built websites for clients with WordPress
+            Full stack web developer that was responsible for maintaining
+            existing LAMP web applications and developiing new ones to improve
+            efficiency in the workplace
           </Bullet>
           <Bullet>
-            Planned out projects by creating wireframes and mockups for
-            potential web designs that were later developed into fully
-            functional and responsive websites
+            Designed the user interface and maintained the codebase for a web
+            application used by 1,200+ students on campus
           </Bullet>
           <Bullet>
-            Utilized and customized different themes and plugins with PHP, HTML
-            & CSS to provide a more tailored experience
+            Designed various marketing materials using Adobe CC and assisted
+            with photography and video work as needed
           </Bullet>
         </ul>
       </TimeContent>
