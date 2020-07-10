@@ -58,8 +58,7 @@ const Timeline = () => {
         <ul>
           <Bullet>
             Implemented both back-end and front-end features on a LAMP stack web
-            application built on an MVC framework and improved the codebase by
-            introducing object oriented design patterns
+            application built on an MVC framework
           </Bullet>
           <Bullet>
             Improved on the security of the site by using security auditing
